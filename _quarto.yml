@@ -3,6 +3,12 @@ project:
 
 website:
   title: "Notes on Quarto 1.7 performance work"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - about.qmd
+      - summary.qmd
 
 format:
   html:

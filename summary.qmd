@@ -1,0 +1,18 @@
+---
+title: Summary so far
+echo: false
+filters:
+  - posts/drop-knitr-stderr.lua
+---
+
+{{< include posts/_r-preamble.qmd >}}
+```{r}
+#| label: fig-summary
+#| fig-cap: The total runtime of `quarto render` on `quarto-dev/quarto-web`.
+df <- read_csv("summary.csv")
+ggplot(df, aes(x=time, y=date)) + 
+    # this appears to not work? :shrug:
+    # scale_y_date(limits=c(max(df$date), min(df$date))) + 
+    scale_y_date() +
+    geom_point()
+```
