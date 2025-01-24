@@ -7,17 +7,12 @@ filters:
   - ../drop-knitr-stderr.lua
 ---
 
+{{< include ../_r-preamble.qmd >}}
+
 A win from using `jog` for one of our filters:
 
 - Before: []{.github-commit hash="53da9da410b2c95d9ae1dca75d71507cff606c2a"}
 - After: []{.github-commit hash="bf5bc5add450aa8a7c911d7162c28e1294f7631e"}
-
-```{r}
-#| warning: false
-library(tidyverse)
-library(thematic)
-thematic::thematic_on(bg = "#1b1b1e", fg = "#eeeeee", accent="#4488dd", font = "Source Sans Pro")
-```
 
 ```{r}
 commit_1 = "53da9da410b2c95d9ae1dca75d71507cff606c2a"

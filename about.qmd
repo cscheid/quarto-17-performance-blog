@@ -6,4 +6,4 @@ about:
 
 These are notes I'm keeping to myself on the work we're doing to improve Quarto performance in the
 1.7 release.
-They're meant as external memory for my own self: no promises that they'll make to anyone else!
+They're meant as external memory for my own self: no promises that they'll make sense to anyone else!
