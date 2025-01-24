@@ -1,0 +1,14 @@
+project:
+  type: website
+
+website:
+  title: "Notes on Quarto 1.7 performance work"
+
+format:
+  html:
+    theme:
+      - brand
+    css: styles.css
+
+
+

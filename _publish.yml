@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: bce47b44-cea7-4cb8-9fe9-c5f50bcf1581
+      url: https://posit-carlos.quarto.pub/quarto-17-performance-notes
